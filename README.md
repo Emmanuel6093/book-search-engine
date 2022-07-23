@@ -6,7 +6,7 @@ A Google Books API built with MERN and Apollo GraphQL. Allows users create an ac
 
 ## Installation 
 
-    * Download GitHub files, run `npm i -y` in the root directory of project to install dependencies, and run `npm run build` to build the application. Navagate to `localhost:3000` in the browser to view the application.
+    Download GitHub files, run `npm i -y` in the root directory of project to install dependencies, and run `npm run build` to build the application. Navagate to `localhost:3000` in the browser to view the application.
 
 ## Usage 
 
