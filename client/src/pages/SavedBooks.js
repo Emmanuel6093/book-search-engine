@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
-import { GET_ME } from '../utils/queries';
+import { GET_ME } from '/utils/queries';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { useQuery, useMutation } from '@apollo/client';
 import { useParams } from 'react-router-dom';
@@ -27,7 +27,7 @@ const userData = data?.me || [];
       if (!response.ok) {
         throw new Error('something went wrong!');
       }
-      
+
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
